@@ -1,0 +1,44 @@
+{
+	"type": "doubleTurret",
+	"name": "Improved double turret",
+	"description": "-",
+	"health": 250,
+	"size": 1,
+	"recoil" : 2,
+	"reload": 14,
+	"range": 175,
+	"ammoUseEffect": "shellEjectSmall",
+	"inaccuracy": 1,
+	"rotatespeed": 10,
+	"ammo": {
+		"copper": {
+			"speed": 6.0,
+			"damage": 20,
+			"reloadMultiplier": 1.2,
+			"bulletWidth": 4,
+			"bulletHeight": 8,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 4,
+			"backColor": "ac7349",
+			"frontColor": "dcd16b"
+		},
+		"lead": {
+			"speed": 7.0,
+			"damage": 10,
+			"reloadMultiplier": 0.8,
+			"bulletWidth": 7,
+			"bulletHeight": 9,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 1,
+			"backColor": "777778",
+			"frontColor": "4d4e50"
+		}
+	},
+	"requirements": [
+		{"item":"silicon", "amount": 80 }
+	],
+	"category": "turret",
+	"research": "duo"
+}

@@ -1,0 +1,15 @@
+{
+	"type": "ItemBridge",
+	"name": "titanium-brige-conveyor",
+	"health": 500,
+	"description": "Описание",
+	"hasPower":false, 
+	"range": 5,
+	"consumes":{},
+	"requirements": [
+		{"item": "silicon", "amount": 20},
+	],
+	"category": "distribution",
+	"speedBridge": 1.6,
+	"research": "bridge-conveyor"
+}

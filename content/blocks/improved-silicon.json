@@ -1,0 +1,34 @@
+{
+	"type": "genericCrafter",
+	"name": "improved silicon",
+	"description": "-",
+	"outputItem": {"item": "silicon", "amount": 4},
+	"size": 3,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 45,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+	    "power": 1.2
+	    "liquid": {
+			"liquid": "water",
+			"amount": 0.05
+		
+		}, 
+		"items": {
+			"items": [
+				{ "item": "coal", "amount": 3 }
+				{"item":"sand", "amount": 4}
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 50 },
+		{ "item": "thorium", "amount": 80 },
+		{ "item": "silicon", "amount": 60 }
+	],
+	"category": "crafting",
+	"research": "router",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5, 
+} 
