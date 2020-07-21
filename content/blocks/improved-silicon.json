@@ -2,11 +2,11 @@
 	"type": "genericCrafter",
 	"name": "improved silicon",
 	"description": "-",
-	"outputItem": {"item": "silicon", "amount": 4},
+	"outputItem": {"item": "silicon", "amount": 3},
 	"size": 3,
 	"hasPower": true,
 	"hasItems": true,
-	"craftTime": 45,
+	"craftTime": 60,
 	"updateEffect": "smeltsmoke",
 	"consumes": {
 	    "power": 1.2
@@ -30,5 +30,5 @@
 	"category": "crafting",
 	"research": "router",
 	"idleSound": "respawning",
-	"idleSoundVolume": 0.5, 
+	"idleSoundVolume": 0.5
 } 
