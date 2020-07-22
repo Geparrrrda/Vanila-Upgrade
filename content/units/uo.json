@@ -1,0 +1,16 @@
+{
+	"type": "flyingUnit",
+	"name": "Miner",
+	"description": "-",
+	"speed": 0.2,
+	"flying": true,
+	"health": 300,
+	"range": 140,
+	"weapon": {
+		"name": "-",
+		"damage":10,
+		"reload": 15,
+		"alternate": true
+		"bullet":"lightning" 
+	}
+}

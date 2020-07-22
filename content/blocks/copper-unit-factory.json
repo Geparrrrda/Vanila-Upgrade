@@ -1,0 +1,22 @@
+{
+	"name": "Drone Factory",
+	"description": "-",
+	"type": "UnitFactory",
+	"unitType": "copper-unit",
+	"size": 2,
+	"health" : 320,
+	"produceTime": 100,
+	"consumes": {
+		"items": {
+			"items": [
+				{"item": "copper", "amount": 10} 
+			]
+		}
+	},
+	"category": "units",
+	"research": "router",
+	"requirements": [
+		{ "item": "copper", "amount": 120 }, 
+		{ "item": "lead", "amount": 120 }
+	]
+}

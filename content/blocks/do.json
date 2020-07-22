@@ -1,0 +1,19 @@
+{
+	"name": "Kinetic Drill",
+	"description": "-",
+	"type": "Drill",
+	"size": 3,
+	"tier": 300,
+	"drillTime":60,
+	"consumes": {
+		"power": 1.6
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 40 },
+		{ "item": "titanium", "amount": 20 },
+		{ "item": "graphite", "amount": 20 }, 
+		{ "item": "surge-alloy", "amount": 20 }
+	],
+	"category": "production",
+	"research": "laser-drill"
+}
