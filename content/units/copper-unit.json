@@ -4,8 +4,8 @@
 	"description": "-",
 	"speed": 0.05,
 	"flying": true,
-	"health":20 ,
-	"range": 160,
+	"health":5 ,
+	"range": 100,
 	"weapon": {
 		"name": "-",
 		"damage":1,

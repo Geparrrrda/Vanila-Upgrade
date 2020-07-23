@@ -1,15 +1,15 @@
 {
-	"name": "Drone Factory",
+	"name": "Copper Unit Factory",
 	"description": "-",
 	"type": "UnitFactory",
 	"unitType": "copper-unit",
 	"size": 2,
-	"health" : 320,
+	"health" : 100,
 	"produceTime": 100,
 	"consumes": {
 		"items": {
 			"items": [
-				{"item": "copper", "amount": 10} 
+				{"item": "copper", "amount": 100} 
 			]
 		}
 	},
