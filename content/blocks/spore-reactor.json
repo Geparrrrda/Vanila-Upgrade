@@ -1,0 +1,18 @@
+{
+	"type":"SingleTypeGenerator", 
+	"name":"spore generator", 
+	"description":"-", 
+	"itemCapacity":15, 
+	"size":2, 
+	"powerProduction":11, 
+	"updateEffect":"smeltsmoke", 
+	"consumes":{
+	    "item":"spore-pod"
+	}, 
+	"requirements":[
+	    {"item":"copper","amount":100}
+	], 
+	"category":"power", 
+	"research":"router"
+	
+}

@@ -1,0 +1,22 @@
+{
+	"name": "Drone Factory",
+	"description": "-",
+	"type": "UnitFactory",
+	"unitType": "fr",
+	"size": 2,
+	"health" : 320,
+	"produceTime": 350,
+	"consumes": {
+		"power": 0.5,
+		"items": {
+			"items": [
+				{"item": "titanium", "amount": 5}
+			]
+		}
+	},
+	"category": "units",
+	"research": "router",
+	"requirements": [
+		{ "item": "titanium", "amount": 120 }
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"type": "groundUnit",
+	"name": "fregger",
+	"description": "ground unit,Can Freezing Enemy",
+	"speed": 0.09,
+	"flying": false,
+	"weaponOffSetY": 93,
+	"health": 425,
+	"range": 100,
+	"weapon": {
+		"name": "dugger-weapon",
+		"reload": 30,
+		"recoil": 1.4,
+		"alternate": true,
+		"bullet": {
+		    "type": "BasicBulletType",
+		    "frontColor": "d6fffa",
+		    "backColor": "c9fff9",
+		    "hitEffect": "hitFuse",
+		    "lifetime": 100,
+		    "speed": 3,
+		    "damage": 35,
+		    "status": "freezing"
+		    
+		}
+	}
+}
