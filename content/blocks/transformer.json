@@ -1,0 +1,18 @@
+{
+	"type":"SingleTypeGenerator", 
+	"name":"Transformator", 
+	"description":"-", 
+	"itemCapacity":10, 
+	"size":3, 
+	"powerProduction":50, 
+	"updateEffect":"smeltsmoke", 
+	"consumes":{
+	    "item":"copper"
+	}, 
+	"requirements":[
+	    {"item":"copper","amount":100}
+	], 
+	"category":"power", 
+	"research":"router"
+	
+}
