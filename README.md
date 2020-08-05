@@ -1,1 +1,1 @@
-# VanilaUpgrade md
+# VanilaUpgrade
